@@ -5,6 +5,16 @@ import BasicTable from './components/BasicTable';
 
 import ReactTable from './components/ReactTable';
 
+import DatePicker from './components/DatePicker';
+
+import DatePicker1 from './components/DatePicker1';
+
+import Grids from './components/Grids';
+
+
+
+//import 'flowbite';
+
 function App() {
 
   return (
@@ -18,7 +28,14 @@ function App() {
 
       {/* <BasicTable /> */}
 
-      <ReactTable />
+      {/*       <ReactTable /> */}
+
+      {/*  <DatePicker1 /> */}
+
+
+      <Grids />
+
+
 
 
     </div >
